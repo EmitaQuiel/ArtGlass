@@ -1,0 +1,7 @@
+.imgHearo {
+    display: flex;
+    justify-content: center;
+}
+.imgHearo img{
+    width: 90%;
+}
