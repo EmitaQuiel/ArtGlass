@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./Hearo.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 function Hearo() {
   return (
@@ -12,11 +14,11 @@ function Hearo() {
           <div className={style.information}>
             <div className={style.conten1}>
               <h1>Battle of Quebec</h1>
-              <h3>exhibition</h3>
+              <h2>exhibition</h2>
             </div>
             <div className={style.conten2}>
                 <p>29.05.25</p>
-                <p>06.06.2025</p>
+                <p><FontAwesomeIcon icon={faArrowRight} />  06.06.2025</p>
             </div>
           </div>
         </div>

@@ -1,9 +1,11 @@
 .cardExhibition{
-    width: 15%;
+    width: 20%;
     height: auto;
-    border: 1px solid black;
-    padding: 1%;
+    margin: 0 0.6% 0 0.6%;
 }
 .cardExhibition img{
-    width: 100%;
+    width: 100%; 
+    height: auto;
+    border: 1px solid black;
+    padding: 3%;
 }

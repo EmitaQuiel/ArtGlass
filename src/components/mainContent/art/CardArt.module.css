@@ -1,3 +1,23 @@
+.CardArt{
+    margin: 3%;
+
+}
+.CardArt h2{
+    font-size: 35px;
+
+}
+.CardArt h3{
+    font-size: 30px;
+
+}
 .CardArt img{
-    width: 25%;
+    width: 100%;
+    max-width: 600px;
+}
+
+.CardArt p{
+    font-size: 25px;
+    width: 600px; 
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

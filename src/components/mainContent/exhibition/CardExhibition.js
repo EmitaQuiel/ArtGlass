@@ -5,7 +5,6 @@ function CardExhibition({image, title}) {
   return(
     <div className={style.cardExhibition}>
         <img src={image} alt="imgExhibition"/>
-        <h2>{title}</h2>
     </div>
   )
 }
